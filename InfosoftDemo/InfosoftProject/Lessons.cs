@@ -43,15 +43,15 @@ public void InputOutput_l3()
 
     Console.WriteLine("Enter your name: ");
     string Name = Console.ReadLine();
-    Console.WriteLine("Enter your Location: ");
-    string Location = Console.ReadLine();
+    Console.WriteLine("Enter your Address: ");
+    string Address = Console.ReadLine();
     Console.WriteLine("Enter your Company: ");
     string Company = Console.ReadLine();
 
     Console.WriteLine();
 
     Console.WriteLine("Hi My Name is " + Name);
-    Console.WriteLine("I am from " + Location);
+    Console.WriteLine("I am from " + Address);
     Console.WriteLine("I am currently working at " + Company);
 
 }
