@@ -1,0 +1,14 @@
+D:\DOWNLOADS\InfosoftProject-master\InfosoftProject\bin\Debug\net8.0\InfosoftProject.exe
+D:\DOWNLOADS\InfosoftProject-master\InfosoftProject\bin\Debug\net8.0\InfosoftProject.deps.json
+D:\DOWNLOADS\InfosoftProject-master\InfosoftProject\bin\Debug\net8.0\InfosoftProject.runtimeconfig.json
+D:\DOWNLOADS\InfosoftProject-master\InfosoftProject\bin\Debug\net8.0\InfosoftProject.dll
+D:\DOWNLOADS\InfosoftProject-master\InfosoftProject\bin\Debug\net8.0\InfosoftProject.pdb
+D:\DOWNLOADS\InfosoftProject-master\InfosoftProject\obj\Debug\net8.0\InfosoftProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\DOWNLOADS\InfosoftProject-master\InfosoftProject\obj\Debug\net8.0\InfosoftProject.AssemblyInfoInputs.cache
+D:\DOWNLOADS\InfosoftProject-master\InfosoftProject\obj\Debug\net8.0\InfosoftProject.AssemblyInfo.cs
+D:\DOWNLOADS\InfosoftProject-master\InfosoftProject\obj\Debug\net8.0\InfosoftProject.csproj.CoreCompileInputs.cache
+D:\DOWNLOADS\InfosoftProject-master\InfosoftProject\obj\Debug\net8.0\InfosoftProject.dll
+D:\DOWNLOADS\InfosoftProject-master\InfosoftProject\obj\Debug\net8.0\refint\InfosoftProject.dll
+D:\DOWNLOADS\InfosoftProject-master\InfosoftProject\obj\Debug\net8.0\InfosoftProject.pdb
+D:\DOWNLOADS\InfosoftProject-master\InfosoftProject\obj\Debug\net8.0\InfosoftProject.genruntimeconfig.cache
+D:\DOWNLOADS\InfosoftProject-master\InfosoftProject\obj\Debug\net8.0\ref\InfosoftProject.dll
