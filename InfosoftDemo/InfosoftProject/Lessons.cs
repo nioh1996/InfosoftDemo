@@ -11,117 +11,119 @@ namespace InfosoftDemo
     {
 
         //Lesson 1: Introduction to C#
-        public void Helloworld_l1()
-        {
-            Console.WriteLine("Hello World!");
-        }
+public void Helloworld_l1()
+{
+    Console.WriteLine("Hello World!");
+}
 
-        //Lesson 2: Data Variables and Data Types
-        public void VariablesandDatatype_l2()
-        {
-            String fname, lname, gender;
-            int age;
-            float gpa;
+//Lesson 2: Data Variables and Data Types
+public void VariablesandDatatype_l2()
+{
+    String fname, lname, gender, hobby;
+    int age;
+    float gpa;
 
-            fname = "Migs";
-            lname = "Jimenez";
-            gender = "Male";
-            age = 21;
-            gpa = 4.0f;
+    fname = "Migs";
+    lname = "Jimenez";
+    gender = "Male";
+    hobby = "study programming languages";
+    age = 21;
+    gpa = 4.0f;
 
-            Console.WriteLine("Name : " + (fname + lname));
-            Console.WriteLine("Gender : " + gender);
-            Console.WriteLine("Age : " + age);
-            Console.WriteLine("Gpa : " + gpa);
-        }
+    Console.WriteLine("Name : " + (fname + lname));
+    Console.WriteLine("Gender : " + gender);
+    Console.WriteLine("Age : " + age);
+    Console.WriteLine("Gpa : " + gpa);
+    Console.WriteLine("My hobby is to " + hobby);
+}
 
-        //Lesson 3: Basic Input and Output
-        public void InputOutput_l3()
-        {
+//Lesson 3: Basic Input and Output
+public void InputOutput_l3()
+{
 
-            Console.WriteLine("Enter your name: ");
-            string Name = Console.ReadLine();
-            Console.WriteLine("Enter your Location: ");
-            string Location = Console.ReadLine();
-            Console.WriteLine("Enter your Company: ");
-            string Company = Console.ReadLine();
+    Console.WriteLine("Enter your name: ");
+    string Name = Console.ReadLine();
+    Console.WriteLine("Enter your Location: ");
+    string Location = Console.ReadLine();
+    Console.WriteLine("Enter your Company: ");
+    string Company = Console.ReadLine();
 
-            Console.WriteLine();
+    Console.WriteLine();
 
-            Console.WriteLine("Hi My Name is " + Name);
-            Console.WriteLine("I am from " + Location);
-            Console.WriteLine("I am currently working at " + Company);
+    Console.WriteLine("Hi My Name is " + Name);
+    Console.WriteLine("I am from " + Location);
+    Console.WriteLine("I am currently working at " + Company);
 
-        }
+}
 
-        //Lesson 4: Operators and Expressions
-        public void OperatorsandExpressions_l4()
-        {
-            float average, grade1, grade2, grade3, grade4;
+//Lesson 4: Operators and Expressions
+public void OperatorsandExpressions_l4()
+{
+    float average, grade1, grade2, grade3, grade4;
 
-            Console.WriteLine("Enter your Grade in English: ");
-            grade1 = Convert.ToSingle(Console.ReadLine());
+    Console.WriteLine("Enter your Proficiency in C#: ");
+    grade1 = Convert.ToSingle(Console.ReadLine());
 
-            Console.WriteLine("Enter your Grade in Math: ");
-            grade2 = Convert.ToSingle(Console.ReadLine());
+    Console.WriteLine("Enter your Proficiency in Python: ");
+    grade2 = Convert.ToSingle(Console.ReadLine());
 
-            Console.WriteLine("Enter your Grade in Science: ");
-            grade3 = Convert.ToSingle(Console.ReadLine());
+    Console.WriteLine("Enter your Proficiency in Java: ");
+    grade3 = Convert.ToSingle(Console.ReadLine());
 
-            Console.WriteLine("Enter your Grade in Computer: ");
-            grade4 = Convert.ToSingle(Console.ReadLine());
+    Console.WriteLine("Enter your Proficiency in C++: ");
+    grade4 = Convert.ToSingle(Console.ReadLine());
 
-            average = (grade1 + grade2 + grade3 + grade4) / 4;
-            Console.WriteLine("Your Average is : " + average);
-        }
+    average = (grade1 + grade2 + grade3 + grade4) / 4;
+    Console.WriteLine("Your Average is : " + average);
+}
 
-        //Lesson 5: Conditional Statements
-        public void ConditionalStatements_l5()
-        {
-            float average, grade1, grade2, grade3, grade4;
+//Lesson 5: Conditional Statements
+public void ConditionalStatements_l5()
+{
+    float average, grade1, grade2, grade3, grade4;
 
-            Console.WriteLine("Enter your Grade in English: ");
-            grade1 = Convert.ToSingle(Console.ReadLine());
+    Console.WriteLine("Enter your Proficiency in C#: ");
+    grade1 = Convert.ToSingle(Console.ReadLine());
 
-            Console.WriteLine("Enter your Grade in Math: ");
-            grade2 = Convert.ToSingle(Console.ReadLine());
+    Console.WriteLine("Enter your Proficiency in Python: ");
+    grade2 = Convert.ToSingle(Console.ReadLine());
 
-            Console.WriteLine("Enter your Grade in Science: ");
-            grade3 = Convert.ToSingle(Console.ReadLine());
+    Console.WriteLine("Enter your Proficiency in Java: ");
+    grade3 = Convert.ToSingle(Console.ReadLine());
 
-            Console.WriteLine("Enter your Grade in Computer: ");
-            grade4 = Convert.ToSingle(Console.ReadLine());
+    Console.WriteLine("Enter your Proficiency in C++: ");
+    grade4 = Convert.ToSingle(Console.ReadLine());
 
-            average = (grade1 + grade2 + grade3 + grade4) / 4;
-            Console.WriteLine("Your Average is : " + average);
+    average = (grade1 + grade2 + grade3 + grade4) / 4;
+    Console.WriteLine("Your Average is : " + average);
 
-            Console.WriteLine();
+    Console.WriteLine();
 
-            if (average > 100)
-            {
-                Console.WriteLine("Invalid Grade");
-            }
-            else if (average >= 98)
-            {
-                Console.WriteLine("With Highest Honor");
-            }
-            else if (average >= 95)
-            {
-                Console.WriteLine("With Highest Honor");
-            }
-            else if (average >= 90)
-            {
-                Console.WriteLine("With High Honor");
-            }
-            else if (average >= 75)
-            {
-                Console.WriteLine("With Highest Honor");
-            }
-            else
-            {
-                Console.WriteLine("Failed");
-            }
-        }
+    if (average > 100)
+    {
+        Console.WriteLine("Invalid Grade");
+    }
+    else if (average >= 98)
+    {
+        Console.WriteLine("Master Coder");
+    }
+    else if (average >= 95)
+    {
+        Console.WriteLine("Master Coder");
+    }
+    else if (average >= 90)
+    {
+        Console.WriteLine("Master Coder");
+    }
+    else if (average >= 75)
+    {
+        Console.WriteLine("Beginner");
+    }
+    else
+    {
+        Console.WriteLine("Failed");
+    }
+}
 
         //Lesson 6: Switch Statements
         public void SwitchStatements_l6()
